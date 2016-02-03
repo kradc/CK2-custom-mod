@@ -10,7 +10,8 @@ e_dark_empire = {
 	culture = darkian
 	controls_religion = darkness
 	religion = darkness
-	
+
+	primary = yes
 	holy_order = yes
 	short_name = yes
 

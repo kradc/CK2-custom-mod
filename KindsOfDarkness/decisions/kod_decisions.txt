@@ -2,9 +2,9 @@ decisions = {
 	create_dark_empire = {
 		is_high_prio = yes
 		potential = {
+			is_playable = yes
 			culture = darkian
 			religion = darkness
-			is_adult = yes
 			trait = dark_bless
 		}
 		allow = {
@@ -17,6 +17,7 @@ decisions = {
 			NOT = {
 				trait = incapable
 			}
+			completely_controls = c_oleshye
 		}
 		effect = {
 			activate_title = {
@@ -28,9 +29,17 @@ decisions = {
 				hidden_tooltip = {
 					make_primary_title = yes
 				}
+				copy_title_laws = PREV
+				copy_title_history = PREV
+			}
+			c_oleshye = { ROOT = { capital = PREV } }
+			if = {
+				limit = { has_nickname = no }
+				give_nickname = nick_the_great
 			}
 			set_government_type = darkness_government
 			hidden_tooltip = {
+				destroy_landed_title = THIS
 				character_event = { id = 3701001 }
 			}
 		}
