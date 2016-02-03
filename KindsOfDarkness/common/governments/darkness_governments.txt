@@ -3,6 +3,7 @@ nomadic_governments = {
 		preferred_holdings = { NOMAD }
 		allowed_holdings = { NOMAD }
 		no_vassal_tax = {
+			darkness_government
 		}
 		vassal_call_to_arms = {
 			feudal_government
@@ -45,18 +46,17 @@ nomadic_governments = {
 			mercenary = no
 			holy_order = no
 		}
-
 		unit_home_modifier = {
 			supply_limit = 37 # Supply limit modifier for Nomads in Nomad lands
 		}
 
 		color = { 37 37 37 }
 
-		have_gender_laws = no
 		uses_prestige_for_law_change = yes
 		allow_title_revokation = yes
 		allow_looting = yes
 		max_consorts = 6
+		have_gender_laws = no
 		ignores_de_jure_laws = yes
 		can_build_holdings = no
 		can_build_forts = no
