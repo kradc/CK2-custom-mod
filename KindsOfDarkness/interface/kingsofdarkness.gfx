@@ -1,0 +1,13 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_create_dark_empire"
+		texturefile = "gfx/interface/decision_icon_create_dark_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_dark_bless"
+		texturefile = "gfx/traits/dark_bless.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}

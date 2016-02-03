@@ -11,6 +11,7 @@ dark_bless = {
 	random = no
 	customizer = no
 	inherit_chance = 100
+	religious = yes
 
 	opposites =  {
 	}
