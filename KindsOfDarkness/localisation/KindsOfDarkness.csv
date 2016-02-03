@@ -8,6 +8,8 @@ darkness_reformed_DESC;Darkness is coming.;;;;;;;;;;;;x;
 temple_baron_darkness;Shadower;;;;;;;;;;;;x;
 e_dark_empire;Dark Empire;;;;;;;;;;;;x;
 e_dark_empire_adj;Dark Empire;;;;;;;;;;;;x;
+create_dark_empire;Create Dark empire;;;;;;;;;;;;x;
+create_dark_empire_desc;Create Dark empire.;;;;;;;;;;;;x;
 GOD_THE_DARKNESS;The darkness;;;;;;;;;;;;x;
 GOD_OF_DARKNESS;God of darkness;;;;;;;;;;;;x;
 DARK_LORD;Dark Lord;;;;;;;;;;;;x;

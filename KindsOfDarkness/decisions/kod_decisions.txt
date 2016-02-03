@@ -1,20 +1,17 @@
 decisions = {
 	create_dark_empire = {
-		is_high_prio = no
+		is_high_prio = yes
 		potential = {
-			has_landed_title = d_crimea
+			culture = darkian
+			religion = darkness
 			religion_group = darkness_group
 			e_dark_empire = { has_holder = no }
 			is_adult = yes
 			trait = genius
 		}
 		allow = {
-			prestige = 0
 			independent = yes
-			war = no
 			NOT = { trait = incapable }
-			primary_title = { title = d_crimea }
-			completely_controls = d_crimea
 			completely_controls = c_lower_don
 			completely_controls = c_oleshye
 			completely_controls = c_lukomorie
@@ -24,6 +21,9 @@ decisions = {
 		effect = {
 			activate_title = { title = e_dark_empire status = yes }
 			primary_title = { title = e_dark_empire }
+			hidden_tooltip = {
+				character_event = { id = 3701001 }
+			}
 		}
 		ai_will_do = {
 			factor = 0
