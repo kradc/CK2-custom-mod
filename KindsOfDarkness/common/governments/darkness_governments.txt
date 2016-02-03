@@ -1,4 +1,4 @@
-darkness_governments = {
+nomadic_governments = {
 	darkness_government = {
 		preferred_holdings = { NOMAD }
 		allowed_holdings = { NOMAD }
@@ -6,13 +6,6 @@ darkness_governments = {
 			darkness_government
 		}
 		no_vassal_tax = {
-			feudal_government
-			muslim_government
-			theocracy_government
-			merchant_republic_government
-			republic_government
-			tribal_government
-			nomadic_government
 			darkness_government
 		}
 		forced_contract = {
@@ -25,6 +18,13 @@ darkness_governments = {
 			nomadic_government
 		}
 		ignore_in_vassal_limit_calculation = {
+			feudal_government
+			muslim_government
+			theocracy_government
+			merchant_republic_government
+			republic_government
+			tribal_government
+			nomadic_government
 			darkness_government
 		}
 		frame_suffix = "_nomadic"
@@ -53,7 +53,7 @@ darkness_governments = {
 		max_consorts = 6
 		ignores_de_jure_laws = yes
 		can_build_holdings = no
-		can_build_forts = yes
+		can_build_forts = no
 		can_build_temple = yes
 
 		capital_move_delay = 6
