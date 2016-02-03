@@ -1,45 +1,14 @@
 character_event = {
 	id = 3701001
-	title = EVTNAME62920
-	desc = EVTDESC62920
-	
-	picture = GFX_evt_council
-	border = GFX_event_normal_frame_diplomacy
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA62920
-	}
-}
+	title = KOAEVTNAME3701001
+	desc = KOAEVTDESC3701001
 
-# Informed about the Creation of Leon
-character_event = {
-	id = 3701002
-	title = EVTNAME62920
-	desc = EVTDESC62921
-	
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_diplomacy
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA62921
-	}
-}
 
-character_event = {
-	id = 3701003
-	title = EVTNAME62922
-	desc = EVTDESC62922
-	
-	picture = GFX_evt_council
-	border = GFX_event_normal_frame_diplomacy
-	
 	is_triggered_only = yes
-	
+
 	option = {
-		name = EVTOPTA62922
+		name = KOAEVTOPTA3701001
 	}
 }

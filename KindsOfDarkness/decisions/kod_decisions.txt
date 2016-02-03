@@ -20,6 +20,12 @@ decisions = {
 		}
 		effect = {
 			activate_title = { title = e_dark_empire status = yes }
+			e_dark_empire = {
+				grant_title = ROOT
+				hidden_tooltip = { make_primary_title = yes }
+				copy_title_laws = PREV
+				copy_title_history = PREV
+			}
 			primary_title = { title = e_dark_empire }
 			hidden_tooltip = {
 				character_event = { id = 3701001 }
