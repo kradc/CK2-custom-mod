@@ -1,4 +1,24 @@
 character_event = {
+	id = 3700000
+	picture = "GFX_evt_lovers"
+	is_triggered_only = yes
+	title = KODEVTNAME3700000
+	desc = KODEVTDESC3700000
+	option = {
+		name = KODEVTOPTA3700000
+		add_trait = dark_bless
+		character_event = { id = 3700000  }
+	}
+	option = {
+		name = KODEVTOPTB3700000
+		character_event = { id = 3700001  }
+	}
+	option = {
+		name = KODEVTOPTCLOSE
+	}
+}
+
+character_event = {
 	id = 3700001
 	picture = "GFX_evt_lovers"
 	is_triggered_only = yes
