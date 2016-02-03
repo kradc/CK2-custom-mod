@@ -2,10 +2,10 @@ character_event = {
 	id = 3700001
 	picture = "GFX_evt_lovers"
 	is_triggered_only = yes
-	title = KOAEVTNAME3700001
-	desc = KOAEVTDESC3700001
+	title = KODEVTNAME3700001
+	desc = KODEVTDESC3700001
 	option = {
-		name = KOAEVTOPTA3700001
+		name = KODEVTOPTA3700001
 		change_martial = 100
 		change_stewardship = 100
 		change_learning = 100
@@ -14,7 +14,7 @@ character_event = {
 		character_event = { id = 3700001  }
 	}
 	option = {
-		name = KOAEVTOPTB3700001
+		name = KODEVTOPTB3700001
 		remove_trait = amateurish_plotter
 		remove_trait = flamboyant_schemer
 		remove_trait = intricate_webweaver
@@ -42,7 +42,7 @@ character_event = {
 		character_event = { id = 3700001  }
 	}
 	option = {
-		name = KOAEVTOPTC3700001
+		name = KODEVTOPTC3700001
 		remove_trait = stressed
 		remove_trait = depressed
 		remove_trait = lunatic
@@ -96,6 +96,6 @@ character_event = {
 		character_event = { id = 3700001  }
 	}
 	option = {
-		name = KOAEVTOPTCLOSE
+		name = KODEVTOPTCLOSE
 	}
 }

@@ -27,7 +27,7 @@ DeclareShared( [[
 
 CONSTANT_BUFFER( 0, 0 )
 {
-	float4x4 WorldViewProjectionMatrix;	
+	float4x4 WorldViewProjectionMatrix;
 	float4 Color;
 	float vXOffset;	// For textures with more than one frame
 };
@@ -88,7 +88,7 @@ VS_OUTPUT main(const VS_INPUT v )
 ]] )
 
 DeclareShader( "PixelShaderUp", [[
-	
+
 float4 main( VS_OUTPUT v ) : COLOR
 {
     float4 OutColor = tex2D( MapTexture, v.vTexCoord );
@@ -96,11 +96,11 @@ float4 main( VS_OUTPUT v ) : COLOR
 	return OutColor;
 }
 
-	
+
 ]] )
 
 DeclareShader( "PixelShaderDown", [[
-	
+
 float4 main( VS_OUTPUT v ) : COLOR
 {
 	float4 OutColor = tex2D( MapTexture, v.vTexCoord );
@@ -110,23 +110,23 @@ float4 main( VS_OUTPUT v ) : COLOR
 	return OutColor;
 }
 
-	
+
 ]] )
 
 DeclareShader( "PixelShaderDisable", [[
-	
+
 float4 main( VS_OUTPUT v ) : COLOR
 {
     float4 OutColor = tex2D( MapTexture, v.vTexCoord );
-    float Grey = dot( OutColor.rgb, float3( 0.212671f, 0.715160f, 0.072169f ) ); 
+    float Grey = dot( OutColor.rgb, float3( 0.212671f, 0.715160f, 0.072169f ) );
     OutColor.rgb = float3(Grey, Grey, Grey);
 	OutColor *= Color;
     return OutColor;
-}	
+}
 ]] )
 
 DeclareShader( "PixelShaderOver", [[
-	
+
 float4 main( VS_OUTPUT v ) : COLOR
 {
     float4 OutColor = tex2D( MapTexture, v.vTexCoord );

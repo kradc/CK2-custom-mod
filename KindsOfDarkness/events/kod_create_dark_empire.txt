@@ -1,7 +1,7 @@
 character_event = {
 	id = 3701001
-	title = KOAEVTNAME3701001
-	desc = KOAEVTDESC3701001
+	title = KODEVTNAME3701001
+	desc = KODEVTDESC3701001
 
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_diplomacy

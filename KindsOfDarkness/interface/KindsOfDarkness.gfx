@@ -8,6 +8,6 @@ spriteTypes = {
 		texturefile = "gfx/traits/dark_bless.dds"
 		noOfFrames = 1
 		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
+		effectFile = "gfx/FX/kod_buttonstate.lua"
 	}
 }

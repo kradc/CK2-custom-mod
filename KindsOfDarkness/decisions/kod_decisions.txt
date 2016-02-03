@@ -5,7 +5,7 @@ decisions = {
 			culture = darkian
 			religion = darkness
 			is_adult = yes
-			trait = genius
+			trait = dark_bless
 		}
 		allow = {
 			culture = darkian
