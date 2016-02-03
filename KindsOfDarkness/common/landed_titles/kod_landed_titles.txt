@@ -1,0 +1,37 @@
+e_dark_empire = {
+	color={ 37 37 37 }
+	color2={ 0 0 0 }
+
+	capital = 559 # Crimea
+
+	title = "DARK_LORD"
+	foa = "DARK_LORD_FOA"
+
+	controls_religion = darkness
+	religion = darkness
+
+	holy_order = yes
+	short_name = yes
+}
+
+e_tartaria = {
+	k_taurica = {
+		d_crimea = {
+			c_lower_don = {
+				holy_site = darkness
+			}
+			c_oleshye = {
+				holy_site = darkness
+			}
+			c_lukomorie = {
+				holy_site = darkness
+			}
+			c_lower_dniepr = {
+				holy_site = darkness
+			}
+			c_crimea = {
+				holy_site = darkness
+			}
+		}
+	}
+}

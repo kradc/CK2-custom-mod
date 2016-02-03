@@ -1,0 +1,89 @@
+darkness_group {
+	has_coa_on_barony_only = yes
+	graphical_culture = mongolgfx
+	playable = yes
+	hostile_within_group = yes
+
+	ai_convert_same_group = 2
+	ai_convert_other_group = 1
+	ai_fabricate_claims = no
+
+	darkness = {
+		graphical_culture = mongolgfx
+		ai_convert_other_group = 2
+
+		icon = 5
+		color = { 0.1 0.1 0.1 }
+
+		god_names = {
+			GOD_THE_DARKNESS GOD_THE_DARK_LORD
+		}
+
+		crusade_name = HOLY_WAR
+		priest_title = SHADOW
+
+		character_modifier = {
+			diplomacy = 37
+			martial = 37
+			intrigue = 37
+			stewardship = 37
+			learning = 37
+			health = 1
+		}
+
+		unit_modifier = {
+			land_morale = 100
+			land_organisation = 1
+			garrison_size = 1
+			siege_defence = 1
+			siege_speed = 1
+			levy_size = 1
+			supply_limit = 100
+
+			light_infantry_defensive = 0.8
+			heavy_infantry_defensive = 0.8
+			pikemen_defensive = 0.8
+			light_cavalry_defensive = 1
+			knights_defensive = 1
+			archers_defensive = 1
+			horse_archers_defensive = 1
+
+			light_infantry_offensive = 0.8
+			heavy_infantry_offensive = 0.8
+			pikemen_offensive = 0.8
+			light_cavalry_offensive = 1
+			knights_offensive = 1
+			archers_offensive = 1
+			horse_archers_offensive = 1
+		}
+
+		has_heir_designation = yes
+
+		can_call_crusade = yes
+		can_hold_temples = yes
+		can_retire_to_monastery = yes
+		can_call_crusade = yes
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+
+		feminist = yes
+		female_temple_holders = yes
+		priests_can_inherit = yes
+		priests_can_marry = yes
+
+		psc_marriage = no
+		cousin_marriage = no
+		max_wives = 7
+		max_consorts = 9
+
+		allow_looting = yes
+		allow_rivermovement = yes
+		defensive_attrition = yes
+		ignores_defensive_attrition = yes
+		raised_vassal_opinion_loss = no
+
+		religious_clothing_head = 1
+		religious_clothing_priest = 1
+	}
+}

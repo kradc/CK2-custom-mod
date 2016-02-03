@@ -1,0 +1,101 @@
+character_event = {
+	id = 3700001
+	picture = "GFX_evt_lovers"
+	is_triggered_only = yes
+	title = KOAEVT_CHEAT_TITLE
+	desc = KOAEVT_CHEAT_DESC
+	option = {
+		name = KOAEVT_CHEAT_OPT_1
+		change_martial = 100
+		change_stewardship = 100
+		change_learning = 100
+		change_diplomacy = 100
+		change_intrigue = 100
+		character_event = { id = 3700001  }
+	}
+	option = {
+		name = KOAEVT_CHEAT_OPT_2
+		remove_trait = amateurish_plotter
+		remove_trait = flamboyant_schemer
+		remove_trait = intricate_webweaver
+		remove_trait = naive_appeaser
+		remove_trait = underhanded_rogue
+		remove_trait = charismatic_negotiator
+		remove_trait = indulgent_wastrel
+		remove_trait = thrifty_clerk
+		remove_trait = fortune_builder
+		remove_trait = misguided_warrior
+		remove_trait = tough_soldier
+		remove_trait = skilled_tactician
+		remove_trait = detached_priest
+		remove_trait = martial_cleric
+		remove_trait = scholarly_theologian
+		add_trait = elusive_shadow
+		add_trait = grey_eminence
+		add_trait = midas_touched
+		add_trait = brilliant_strategist
+		add_trait = mastermind_theologian
+		remove_trait = quick
+		add_trait = genius
+		add_trait = fair
+		add_trait = strong
+		character_event = { id = 3700001  }
+	}
+	option = {
+		name = KOAEVT_CHEAT_OPT_3
+		remove_trait = stressed
+		remove_trait = depressed
+		remove_trait = lunatic
+		remove_trait = possessed
+		remove_trait = ill
+		remove_trait = pneumonic
+		remove_trait = syphilitic
+		remove_trait = leper
+		remove_trait = wounded
+		remove_trait = maimed
+		remove_trait = infirm
+		remove_trait = incapable
+		remove_trait = drunkard
+		remove_trait = has_tuberculosis
+		remove_trait = has_typhoid_fever
+		remove_trait = has_typhus
+		remove_trait = has_bubonic_plague
+		remove_trait = has_measles
+		remove_trait = has_small_pox
+		remove_trait = naive_appeaser
+		remove_trait = underhanded_rogue
+		remove_trait = charismatic_negotiator
+		remove_trait = indulgent_wastrel
+		remove_trait = thrifty_clerk
+		remove_trait = fortune_builder
+		remove_trait = misguided_warrior
+		remove_trait = tough_soldier
+		remove_trait = skilled_tactician
+		remove_trait = detached_priest
+		remove_trait = martial_cleric
+		remove_trait = scholarly_theologian
+		remove_trait = imbecile
+		remove_trait = slow
+		remove_trait = clubfooted
+		remove_trait = harelip
+		remove_trait = lisp
+		remove_trait = stutter
+		remove_trait = ugly
+		remove_trait = dwarf
+		remove_trait = inbred
+		remove_trait = weak
+		remove_trait = legit_bastard
+		#### The Seven Sins and Virtues ####
+		remove_trait = lustful
+		remove_trait = gluttonous
+		remove_trait = greedy
+		remove_trait = slothful
+		remove_trait = wroth
+		remove_trait = envious
+		remove_trait = proud
+		character_event = { id = 3700001  }
+	}
+	option = {
+		name = KOAEVT_CLOSE
+	}
+}

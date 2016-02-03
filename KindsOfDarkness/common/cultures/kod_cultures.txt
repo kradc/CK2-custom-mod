@@ -1,0 +1,49 @@
+kinds_of_darkness_culture = {
+	darkian = {
+		graphical_culture = mongolgfx
+		second_graphical_culture = mongolgfx
+		color = { 0.1 0.1 0.1 }
+
+		male_names = {
+			Klad Kled Klid Klod Klud
+			Karl Kerl Kirl Korl Kurl
+			Kane Kene Kine Kone Kune
+			Kanar Kenar Kinar Konar Kunar
+			Katar Ketar Kitar Kotar Kutar
+			Karin Kerin Kirin Korin Kurin
+			Kaser Keser Kiser Koser Kuser
+			Karel Kerel Kirel Korel Kurel
+			Kanus Kenus Kinus Konus Kunus
+			Clad Cled Clid Clod Clud
+			Carl Cerl Cirl Corl Curl
+			Cane Cene Cine Cone Cune
+			Canar Cenar Cinar Conar Cunar
+			Catar Cetar Citar Cotar Cutar
+			Carin Cerin Cirin Corin Curin
+			Caser Ceser Ciser Coser Cuser
+			Carel Cerel Cirel Corel Curel
+			Canus Cenus Cinus Conus Cunus
+		}
+		female_names = {
+			Rana Rena Rina Rona Runa
+			Racel Recel Ricel Rocel Rucel
+			Rahan Rehan Rihan Rohan Ruhan
+			Raner Rener Riner Roner Runer
+			Ramir Remir Rimir Romir Rumir
+			Lana Lena Lina Lona Luna
+			Lacel Lecel Licel Locel Lucel
+			Lahan Lehan Lihan Lohan Luhan
+			Laner Lener Liner Loner Luner
+			Lamir Lemir Limir Lomir Lumir
+		}
+
+		from_dynasty_prefix = "dark "
+		bastard_dynasty_prefix = "black "
+		from_dynasty_suffix = "gin"
+		founder_named_dynasties = yes
+
+		horde = yes
+
+		modifier = default_culture_modifier
+	}
+}
