@@ -29,7 +29,7 @@ decisions = {
 					make_primary_title = yes
 				}
 			}
-			set_government_type = nomadic_government
+			set_government_type = dark_government
 			hidden_tooltip = {
 				character_event = { id = 3701001 }
 			}

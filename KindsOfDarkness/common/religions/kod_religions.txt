@@ -74,8 +74,8 @@ darkness_group {
 
 		psc_marriage = no
 		cousin_marriage = no
-		max_wives = 7
-		max_consorts = 9
+		max_wives = 3
+		max_consorts = 6
 
 		allow_looting = yes
 		allow_rivermovement = yes

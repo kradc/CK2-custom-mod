@@ -9,6 +9,6 @@ character_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = KOAEVTOPTA3701001
+		name = KODEVTOPTA3701001
 	}
 }
