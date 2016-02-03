@@ -12,22 +12,22 @@ darkness_group {
 		graphical_culture = mongolgfx
 		ai_convert_other_group = 2
 
-		icon = 5
+		icon = 4
 		color = { 0.1 0.1 0.1 }
 
 		god_names = {
-			GOD_THE_DARKNESS GOD_THE_DARK_LORD
+			GOD_THE_DARKNESS GOD_OF_DARKNESS
 		}
 
-		crusade_name = HOLY_WAR
-		priest_title = SHADOW
+		crusade_name = DARK_WAR
+		priest_title = SHADOWER
 
 		character_modifier = {
-			diplomacy = 37
-			martial = 37
-			intrigue = 37
-			stewardship = 37
-			learning = 37
+			diplomacy = 12
+			martial = 12
+			intrigue = 12
+			stewardship = 12
+			learning = 12
 			health = 1
 		}
 
