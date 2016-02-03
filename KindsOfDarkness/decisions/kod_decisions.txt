@@ -11,11 +11,33 @@ decisions = {
 			culture = darkian
 			religion = darkness
 			independent = yes
+			e_dark_empire = {
+				has_holder = no
+			}
+			NOT = {
+				trait = incapable
+			}
 		}
 		effect = {
-			set_government_type = darkness_government
-			hidden_tooltip = { character_event = { id = 3701001 } }
+			activate_title = {
+				title = e_dark_empire
+				status = yes
+			}
+			e_dark_empire = {
+				grant_title = ROOT
+				hidden_tooltip = { make_primary_title = yes }
+			}
+			if = {
+				limit = { has_nickname = no }
+				give_nickname = nick_the_great
+			}
+			set_government_type = nomadic_government
+			hidden_tooltip = {
+				character_event = { id = 3701001 }
+			}
 		}
-		ai_will_do = { factor = 0 }
+		ai_will_do = {
+			factor = 0
+		}
 	}
 }
