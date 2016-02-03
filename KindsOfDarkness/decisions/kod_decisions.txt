@@ -4,29 +4,32 @@ decisions = {
 		potential = {
 			culture = darkian
 			religion = darkness
-			religion_group = darkness_group
-			e_dark_empire = { has_holder = no }
 			is_adult = yes
 			trait = genius
 		}
 		allow = {
+			culture = darkian
+			religion = darkness
 			independent = yes
-			NOT = { trait = incapable }
-			completely_controls = c_lower_don
-			completely_controls = c_oleshye
-			completely_controls = c_lukomorie
-			completely_controls = c_lower_dniepr
-			completely_controls = c_crimea
+			e_dark_empire = {
+				has_holder = no
+			}
+			NOT = {
+				trait = incapable
+			}
 		}
 		effect = {
-			activate_title = { title = e_dark_empire status = yes }
+			activate_title = {
+				title = e_dark_empire
+				status = yes
+			}
 			e_dark_empire = {
 				grant_title = ROOT
-				hidden_tooltip = { make_primary_title = yes }
-				copy_title_laws = PREV
-				copy_title_history = PREV
+				hidden_tooltip = {
+					make_primary_title = yes
+				}
 			}
-			primary_title = { title = e_dark_empire }
+			set_government_type = nomadic_government
 			hidden_tooltip = {
 				character_event = { id = 3701001 }
 			}
