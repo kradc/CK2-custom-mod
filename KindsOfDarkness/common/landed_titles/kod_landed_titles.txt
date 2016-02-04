@@ -8,14 +8,19 @@ e_dark_empire = {
 	foa = "DARK_LORD_FOA"
 
 	culture = darkian
-	controls_religion = darkness
 	religion = darkness
+	controls_religion = darkness
 
 	primary = yes
 	holy_order = yes
 	short_name = yes
 
-	landless = yes
+	landless = no
+	temporary = no
+
+	allow = {
+		always = no
+	}
 }
 
 e_tartaria = {

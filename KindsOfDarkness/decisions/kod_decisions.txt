@@ -1,40 +1,67 @@
 decisions = {
 	create_dark_empire = {
 		is_high_prio = yes
-		potential = {
-			is_playable = yes
-			culture = darkian
-			religion = darkness
-			trait = dark_bless
-		}
+		potential = { is_playable = yes }
 		allow = {
 			culture = darkian
 			religion = darkness
+			trait = dark_bless
+			is_adult = yes
 			independent = yes
-			e_dark_empire = {
-				has_holder = no
-			}
-			NOT = {
-				trait = incapable
-			}
+			e_dark_empire = { has_holder = no }
 		}
 		effect = {
-			activate_title = {
-				title = e_dark_empire
-				status = yes
-			}
+			prestige = 1000
 			e_dark_empire = {
 				grant_title = ROOT
-				hidden_tooltip = { make_primary_title = yes }
+				copy_title_laws = yes
 			}
-			if = {
-				limit = { has_nickname = no }
-				give_nickname = nick_the_great
+			hidden_tooltip = {
+				ROOT = {
+					primary_title = {
+						holder_scope = {
+							any_title_under = {
+								limit = {
+									tier = KING
+									empire = {
+										has_holder = no
+									}
+								}
+								de_jure_liege = PREVPREV
+							}
+							any_title_under = {
+								limit = {
+									tier = DUKE
+									location = {
+										kingdom = {
+											empire = {
+												has_holder = no
+											}
+
+											NOT = { de_jure_liege_or_above = PREVPREVPREVPREV }
+											ROOT = {
+												completely_controls = PREV
+											}
+										}
+									}
+								}
+								location = {
+									kingdom = {
+										de_jure_liege = PREVPREVPREVPREV
+									}
+								}
+							}
+						}
+					}
+				}
 			}
-			set_government_type = nomadic_government
+			#set_government_type = nomadic_government
 			hidden_tooltip = {
 				character_event = { id = 3701001 }
 			}
+		}
+		revoke_allowed = {
+			always = no
 		}
 		ai_will_do = {
 			factor = 0

@@ -32,7 +32,7 @@ darkness_group {
 		}
 
 		unit_modifier = {
-			land_morale = 100
+			land_morale = 10
 			land_organisation = 1
 			garrison_size = 1
 			siege_defence = 1
@@ -40,22 +40,25 @@ darkness_group {
 			levy_size = 1
 			supply_limit = 100
 
-			light_infantry_defensive = 0.8
-			heavy_infantry_defensive = 0.8
-			pikemen_defensive = 0.8
+			light_infantry_defensive = 1
+			heavy_infantry_defensive = 1
+			pikemen_defensive = 1
 			light_cavalry_defensive = 1
 			knights_defensive = 1
 			archers_defensive = 1
 			horse_archers_defensive = 1
 
-			light_infantry_offensive = 0.8
-			heavy_infantry_offensive = 0.8
-			pikemen_offensive = 0.8
+			light_infantry_offensive = 1
+			heavy_infantry_offensive = 1
+			pikemen_offensive = 1
 			light_cavalry_offensive = 1
 			knights_offensive = 1
 			archers_offensive = 1
 			horse_archers_offensive = 1
 		}
+
+		pre_reformed = yes
+		#reformer_head_of_religion = yes
 
 		has_heir_designation = yes
 
@@ -72,10 +75,13 @@ darkness_group {
 		priests_can_inherit = yes
 		priests_can_marry = yes
 
+		bs_marriage	= no
+		pc_marriage = no
 		psc_marriage = no
 		cousin_marriage = no
-		max_wives = 3
-		max_consorts = 6
+		matrilineal_marriages = yes
+		max_wives = 5
+		max_consorts = 7
 
 		allow_looting = yes
 		allow_rivermovement = yes
@@ -85,5 +91,177 @@ darkness_group {
 
 		religious_clothing_head = 1
 		religious_clothing_priest = 1
+
+		intermarry = darkness_group
+		intermarry = christian
+		intermarry = muslim
+		intermarry = pagan_group
+		intermarry = zoroastrian_group
+		intermarry = jewish_group
+		intermarry = indian_group
+	}
+}
+
+christian = {
+	catholic = {
+		intermarry = darkness_group
+	}
+	cathar = {
+		intermarry = darkness_group
+	}
+	fraticelli = {
+		intermarry = darkness_group
+	}
+	waldensian = {
+		intermarry = darkness_group
+	}
+	lollard = {
+		intermarry = darkness_group
+	}
+	orthodox = {
+		intermarry = darkness_group
+	}
+	miaphysite = {
+		intermarry = darkness_group
+	}
+	monophysite = {
+		intermarry = darkness_group
+	}
+	bogomilist = {
+		intermarry = darkness_group
+	}
+	monothelite = {
+		intermarry = darkness_group
+	}
+	iconoclast = {
+		intermarry = darkness_group
+	}
+	iconoclast = {
+		intermarry = darkness_group
+	}
+	paulician = {
+		intermarry = darkness_group
+	}
+	nestorian = {
+		intermarry = darkness_group
+	}
+	messalian = {
+		intermarry = darkness_group
+	}
+}
+muslim = {
+	sunni = {
+		intermarry = darkness_group
+	}
+	zikri = {
+		intermarry = darkness_group
+	}
+	yazidi = {
+		intermarry = darkness_group
+	}
+	ibadi = {
+		intermarry = darkness_group
+	}
+	kharijite = {
+		intermarry = darkness_group
+	}
+	shiite = {
+		intermarry = darkness_group
+	}
+	druze = {
+		intermarry = darkness_group
+	}
+	hurufi = {
+		intermarry = darkness_group
+	}
+}
+pagan_group = {
+	pagan = {
+		intermarry = darkness_group
+	}
+	norse_pagan_reformed = {
+		intermarry = darkness_group
+	}
+	norse_pagan = {
+		intermarry = darkness_group
+	}
+	tengri_pagan_reformed = {
+		intermarry = darkness_group
+	}
+	tengri_pagan = {
+		intermarry = darkness_group
+	}
+	baltic_pagan_reformed = {
+		intermarry = darkness_group
+	}
+	baltic_pagan = {
+		intermarry = darkness_group
+	}
+	finnish_pagan_reformed = {
+		intermarry = darkness_group
+	}
+	finnish_pagan = {
+		intermarry = darkness_group
+	}
+	aztec_reformed = {
+		intermarry = darkness_group
+	}
+	aztec = {
+		intermarry = darkness_group
+	}
+	slavic_pagan_reformed = {
+		intermarry = darkness_group
+	}
+	slavic_pagan = {
+		intermarry = darkness_group
+	}
+	west_african_pagan_reformed = {
+		intermarry = darkness_group
+	}
+	west_african_pagan = {
+		intermarry = darkness_group
+	}
+	zun_pagan_reformed = {
+		intermarry = darkness_group
+	}
+	zun_pagan = {
+		intermarry = darkness_group
+	}
+	hellenic_pagan = {
+		intermarry = darkness_group
+	}
+
+}
+zoroastrian_group = {
+	zoroastrian = {
+		intermarry = darkness_group
+	}
+	mazdaki = {
+		intermarry = darkness_group
+	}
+	manichean = {
+		intermarry = darkness_group
+	}
+}
+jewish_group = {
+	jewish = {
+		intermarry = darkness_group
+	}
+	samaritan = {
+		intermarry = darkness_group
+	}
+	karaite = {
+		intermarry = darkness_group
+	}
+}
+indian_group = {
+	hindu = {
+		intermarry = darkness_group
+	}
+	buddhist = {
+		intermarry = darkness_group
+	}
+	jain = {
+		intermarry = darkness_group
 	}
 }
