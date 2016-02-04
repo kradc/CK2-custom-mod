@@ -7,28 +7,17 @@ e_darkness = {
 
 	culture = darkian
 	religion = darkness
-	controls_religion = darkness
-
-	primary = yes
-	holy_order = yes
-	short_name = yes
 
 	landless = no
 	temporary = no
 
+	primary = yes
+	short_name = yes
+	# controls_religion = darkness
+	# holy_order = yes
+
 	allow = {
 		always = no
-		can_marry = yes
-		has_polygamy = yes
-		has_concubinage = yes
-		has_lover = yes
-		intermarry = darkness_group
-		intermarry = christian
-		intermarry = muslim
-		intermarry = pagan_group
-		intermarry = zoroastrian_group
-		intermarry = jewish_group
-		intermarry = indian_group
 	}
 }
 

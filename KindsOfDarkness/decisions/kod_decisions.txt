@@ -7,13 +7,13 @@ decisions = {
 			religion = darkness
 			trait = dark_bless
 			is_adult = yes
-			independent = yes
-			e_dark_empire = { has_holder = no }
+			# independent = yes
+			e_darkness = { has_holder = no }
 		}
 		effect = {
 			cash = 1000
 			prestige = 10000
-			e_dark_empire = {
+			e_darkness = {
 				grant_title = ROOT
 				copy_title_laws = yes
 			}

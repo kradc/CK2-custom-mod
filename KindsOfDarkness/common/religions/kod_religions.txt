@@ -57,8 +57,8 @@ darkness_group {
 			horse_archers_offensive = 1
 		}
 
-		pre_reformed = yes
-		#reformer_head_of_religion = yes
+		# pre_reformed = yes
+		# reformer_head_of_religion = yes
 
 		has_heir_designation = yes
 
@@ -74,6 +74,8 @@ darkness_group {
 		female_temple_holders = yes
 		priests_can_marry = yes
 		priests_can_inherit = yes
+
+		divine_blood = yes
 
 		bs_marriage	= no
 		pc_marriage = no
@@ -93,6 +95,7 @@ darkness_group {
 		religious_clothing_priest = 1
 
 		intermarry = darkness_group
+		intermarry = darkness
 		intermarry = christian
 		intermarry = muslim
 		intermarry = pagan_group
@@ -105,163 +108,213 @@ darkness_group {
 christian = {
 	catholic = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	cathar = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	fraticelli = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	waldensian = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	lollard = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	orthodox = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	miaphysite = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	monophysite = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	bogomilist = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	monothelite = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	iconoclast = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	iconoclast = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	paulician = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	nestorian = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	messalian = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 }
 muslim = {
 	sunni = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	zikri = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	yazidi = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	ibadi = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	kharijite = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	shiite = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	druze = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	hurufi = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 }
 pagan_group = {
 	pagan = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	norse_pagan_reformed = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	norse_pagan = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	tengri_pagan_reformed = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	tengri_pagan = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	baltic_pagan_reformed = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	baltic_pagan = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	finnish_pagan_reformed = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	finnish_pagan = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	aztec_reformed = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	aztec = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	slavic_pagan_reformed = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	slavic_pagan = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	west_african_pagan_reformed = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	west_african_pagan = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	zun_pagan_reformed = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	zun_pagan = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	hellenic_pagan = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 
 }
 zoroastrian_group = {
 	zoroastrian = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	mazdaki = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	manichean = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 }
 jewish_group = {
 	jewish = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	samaritan = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	karaite = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 }
 indian_group = {
 	hindu = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	buddhist = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 	jain = {
 		intermarry = darkness_group
+		intermarry = darkness
 	}
 }
