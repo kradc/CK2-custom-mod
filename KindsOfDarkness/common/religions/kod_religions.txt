@@ -94,8 +94,8 @@ darkness_group {
 		religious_clothing_head = 1
 		religious_clothing_priest = 1
 
-		intermarry = darkness_group
 		intermarry = darkness
+		intermarry = darkness_group
 		intermarry = christian
 		intermarry = muslim
 		intermarry = pagan_group

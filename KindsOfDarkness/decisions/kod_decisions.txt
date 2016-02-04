@@ -1,5 +1,5 @@
 decisions = {
-	rise_of_darkness = {
+	kod_rise_of_darkness = {
 		is_high_prio = yes
 		potential = { is_playable = yes }
 		allow = {
@@ -7,7 +7,7 @@ decisions = {
 			religion = darkness
 			trait = dark_bless
 			is_adult = yes
-			# independent = yes
+			independent = yes
 			e_darkness = { has_holder = no }
 		}
 		effect = {
