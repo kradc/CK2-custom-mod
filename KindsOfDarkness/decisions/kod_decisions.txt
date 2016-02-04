@@ -1,5 +1,5 @@
 decisions = {
-	create_dark_empire = {
+	rise_of_darkness = {
 		is_high_prio = yes
 		potential = { is_playable = yes }
 		allow = {
@@ -11,51 +11,13 @@ decisions = {
 			e_dark_empire = { has_holder = no }
 		}
 		effect = {
-			prestige = 1000
+			cash = 1000
+			prestige = 10000
 			e_dark_empire = {
 				grant_title = ROOT
 				copy_title_laws = yes
 			}
-			hidden_tooltip = {
-				ROOT = {
-					primary_title = {
-						holder_scope = {
-							any_title_under = {
-								limit = {
-									tier = KING
-									empire = {
-										has_holder = no
-									}
-								}
-								de_jure_liege = PREVPREV
-							}
-							any_title_under = {
-								limit = {
-									tier = DUKE
-									location = {
-										kingdom = {
-											empire = {
-												has_holder = no
-											}
-
-											NOT = { de_jure_liege_or_above = PREVPREVPREVPREV }
-											ROOT = {
-												completely_controls = PREV
-											}
-										}
-									}
-								}
-								location = {
-									kingdom = {
-										de_jure_liege = PREVPREVPREVPREV
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-			#set_government_type = nomadic_government
+			set_government_type = nomadic_government
 			hidden_tooltip = {
 				character_event = { id = 3701001 }
 			}

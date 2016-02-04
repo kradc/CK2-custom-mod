@@ -1,8 +1,6 @@
-e_dark_empire = {
+e_darkness = {
 	color={ 37 37 37 }
 	color2={ 0 0 0 }
-
-	capital = 543 # Oleshye
 
 	title = "DARK_LORD"
 	foa = "DARK_LORD_FOA"
@@ -20,6 +18,17 @@ e_dark_empire = {
 
 	allow = {
 		always = no
+		can_marry = yes
+		has_polygamy = yes
+		has_concubinage = yes
+		has_lover = yes
+		intermarry = darkness_group
+		intermarry = christian
+		intermarry = muslim
+		intermarry = pagan_group
+		intermarry = zoroastrian_group
+		intermarry = jewish_group
+		intermarry = indian_group
 	}
 }
 
