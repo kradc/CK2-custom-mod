@@ -1,4 +1,4 @@
-namespace KOD
+namespace = KOD
 
 character_event = {
 	id = KOD.2000
