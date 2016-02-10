@@ -1,7 +1,7 @@
 kinds_of_darkness_culture = {
 	darkian = {
 		graphical_culture = mongolgfx
-		second_graphical_culture = mongolgfx
+		second_graphical_culture = westerngfx
 		color = { 0.1 0.1 0.1 }
 
 		male_names = {

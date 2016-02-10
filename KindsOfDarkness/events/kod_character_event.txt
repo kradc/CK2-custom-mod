@@ -1,17 +1,19 @@
+namespace KOD
+
 character_event = {
-	id = 3700000
+	id = KOD.1000
 	picture = "GFX_evt_lovers"
 	is_triggered_only = yes
-	title = KODEVTNAME3700000
-	desc = KODEVTDESC3700000
+	title = KODEVTNAME1000
+	desc = KODEVTDESC1000
 	option = {
-		name = KODEVTOPTA3700000
+		name = KODEVTOPTA1000
 		add_trait = dark_bless
-		character_event = { id = 3700000  }
+		character_event = { id = KOD.1000 }
 	}
 	option = {
-		name = KODEVTOPTB3700000
-		character_event = { id = 3700001  }
+		name = KODEVTOPTB1000
+		character_event = { id = KOD.1001 }
 	}
 	option = {
 		name = KODEVTOPTCLOSE
@@ -19,22 +21,22 @@ character_event = {
 }
 
 character_event = {
-	id = 3700001
+	id = KOD.1001
 	picture = "GFX_evt_lovers"
 	is_triggered_only = yes
-	title = KODEVTNAME3700001
-	desc = KODEVTDESC3700001
+	title = KODEVTNAME1001
+	desc = KODEVTDESC1001
 	option = {
-		name = KODEVTOPTA3700001
+		name = KODEVTOPTA1001
 		change_martial = 100
 		change_stewardship = 100
 		change_learning = 100
 		change_diplomacy = 100
 		change_intrigue = 100
-		character_event = { id = 3700001  }
+		character_event = { id = KOD.1001 }
 	}
 	option = {
-		name = KODEVTOPTB3700001
+		name = KODEVTOPTB1001
 		remove_trait = amateurish_plotter
 		remove_trait = flamboyant_schemer
 		remove_trait = intricate_webweaver
@@ -59,10 +61,10 @@ character_event = {
 		add_trait = genius
 		add_trait = fair
 		add_trait = strong
-		character_event = { id = 3700001  }
+		character_event = { id = KOD.1001 }
 	}
 	option = {
-		name = KODEVTOPTC3700001
+		name = KODEVTOPTC1001
 		remove_trait = stressed
 		remove_trait = depressed
 		remove_trait = lunatic
@@ -113,7 +115,7 @@ character_event = {
 		remove_trait = wroth
 		remove_trait = envious
 		remove_trait = proud
-		character_event = { id = 3700001  }
+		character_event = { id = KOD.1001 }
 	}
 	option = {
 		name = KODEVTOPTCLOSE

@@ -1,6 +1,6 @@
 darkness_group {
 	has_coa_on_barony_only = yes
-	graphical_culture = mongolgfx
+	graphical_culture = westerngfx
 	playable = yes
 	hostile_within_group = yes
 
@@ -9,7 +9,7 @@ darkness_group {
 	ai_fabricate_claims = no
 
 	darkness = {
-		graphical_culture = mongolgfx
+		graphical_culture = westerngfx
 		ai_convert_other_group = 2
 
 		icon = 4
@@ -79,14 +79,16 @@ darkness_group {
 		pc_marriage = no
 		psc_marriage = no
 		cousin_marriage = no
+		# max_wives = 3
+		max_consorts = 12
 		matrilineal_marriages = yes
-		max_wives = 5
-		max_consorts = 7
 
 		allow_looting = yes
 		allow_rivermovement = yes
+		short_reign_opinion_year_mult = 2
 		defensive_attrition = yes
 		ignores_defensive_attrition = yes
+		landed_kin_prestige_bonus = yes
 		raised_vassal_opinion_loss = no
 
 		religious_clothing_head = 1
