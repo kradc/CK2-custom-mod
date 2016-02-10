@@ -9,40 +9,22 @@ character_event = {
 	option = {
 		name = KODEVTOPTA1000
 		add_trait = dark_bless
-		hidden_tooltip = {
-			character_event = { id = KOD.1000 days = 0 }
-		}
 	}
 	option = {
 		name = KODEVTOPTB1000
-		hidden_tooltip = {
-			character_event = { id = KOD.1001 days = 0 }
-		}
-	}
-	option = {
-		name = KODEVTOPTCLOSE
-	}
-}
-
-character_event = {
-	id = KOD.1001
-	picture = "GFX_evt_lovers"
-	is_triggered_only = yes
-	title = KODEVTNAME1001
-	desc = KODEVTDESC1001
-	option = {
-		name = KODEVTOPTA1001
 		change_martial = 100
 		change_stewardship = 100
 		change_learning = 100
 		change_diplomacy = 100
 		change_intrigue = 100
-		hidden_tooltip = {
-			character_event = { id = KOD.1001 days = 0 }
-		}
 	}
 	option = {
-		name = KODEVTOPTB1001
+		name = KODEVTOPTC1000
+		remove_trait = quick
+		add_trait = genius
+		add_trait = fair
+		add_trait = strong
+
 		remove_trait = amateurish_plotter
 		remove_trait = flamboyant_schemer
 		remove_trait = intricate_webweaver
@@ -63,16 +45,29 @@ character_event = {
 		add_trait = midas_touched
 		add_trait = brilliant_strategist
 		add_trait = mastermind_theologian
-		remove_trait = quick
-		add_trait = genius
-		add_trait = fair
-		add_trait = strong
-		hidden_tooltip = {
-			character_event = { id = KOD.1001 days = 0 }
-		}
-	}
-	option = {
-		name = KODEVTOPTC1001
+
+		add_trait = light_foot_leader
+		add_trait = heavy_infantry_leader
+		add_trait = cavalry_leader
+		add_trait = inspiring_leader
+		add_trait = trickster
+		add_trait = organizer
+		add_trait = defensive_leader
+		add_trait = experimenter
+		add_trait = flanker
+		add_trait = aggressive_leader
+		add_trait = siege_leader
+		add_trait = flat_terrain_leader
+		add_trait = rough_terrain_leader
+		add_trait = mountain_terrain_leader
+		add_trait = desert_terrain_leader
+		add_trait = holy_warrior
+		add_trait = unyielding_leader
+		add_trait = narrow_flank_leader
+		add_trait = war_elephant_leader
+		add_trait = jungle_terrain_leader
+		add_trait = winter_soldier
+
 		remove_trait = stressed
 		remove_trait = depressed
 		remove_trait = lunatic
@@ -115,6 +110,7 @@ character_event = {
 		remove_trait = inbred
 		remove_trait = weak
 		remove_trait = legit_bastard
+
 		#### The Seven Sins and Virtues ####
 		remove_trait = lustful
 		remove_trait = gluttonous
@@ -123,9 +119,7 @@ character_event = {
 		remove_trait = wroth
 		remove_trait = envious
 		remove_trait = proud
-		hidden_tooltip = {
-			character_event = { id = KOD.1001 days = 0 }
-		}
+
 	}
 	option = {
 		name = KODEVTOPTCLOSE
