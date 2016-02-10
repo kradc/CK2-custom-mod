@@ -10,14 +10,12 @@ character_event = {
 	option = {
 		name = KODEVTOPTA1000
 		add_trait = dark_bless
+		hidden_tooltip = {
+			# character_event = { id = KOD.1000 }
+		}
 	}
 	option = {
 		name = KODEVTOPTB1000
-		remove_trait = quick
-		add_trait = genius
-		add_trait = fair
-		add_trait = strong
-		###   ###
 		add_trait = light_foot_leader
 		add_trait = heavy_infantry_leader
 		add_trait = cavalry_leader
@@ -39,12 +37,14 @@ character_event = {
 		add_trait = war_elephant_leader
 		add_trait = jungle_terrain_leader
 		add_trait = winter_soldier
+		hidden_tooltip = {
+			# character_event = { id = KOD.1000 }
+		}
 	}
 	option = {
 		name = KODEVTOPTCLOSE
 	}
 }
-
 
 character_event = {
 	id = KOD.1001
@@ -60,6 +60,9 @@ character_event = {
 		change_learning = 100
 		change_diplomacy = 100
 		change_intrigue = 100
+		hidden_tooltip = {
+			# character_event = { id = KOD.1001 }
+		}
 	}
 	option = {
 		name = KODEVTOPTB1001
@@ -88,6 +91,9 @@ character_event = {
 		add_trait = midas_touched
 		add_trait = brilliant_strategist
 		add_trait = mastermind_theologian
+		hidden_tooltip = {
+			# character_event = { id = KOD.1001 }
+		}
 	}
 	option = {
 		name = KODEVTOPTC1001
@@ -141,6 +147,9 @@ character_event = {
 		remove_trait = wroth
 		remove_trait = envious
 		remove_trait = proud
+		hidden_tooltip = {
+			# character_event = { id = KOD.1001 }
+		}
 	}
 	option = {
 		name = KODEVTOPTCLOSE
