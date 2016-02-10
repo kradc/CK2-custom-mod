@@ -9,11 +9,15 @@ character_event = {
 	option = {
 		name = KODEVTOPTA1000
 		add_trait = dark_bless
-		character_event = { id = KOD.1000 }
+		hidden_tooltip = {
+			character_event = { id = KOD.1000 days = 0 }
+		}
 	}
 	option = {
 		name = KODEVTOPTB1000
-		character_event = { id = KOD.1001 }
+		hidden_tooltip = {
+			character_event = { id = KOD.1001 days = 0 }
+		}
 	}
 	option = {
 		name = KODEVTOPTCLOSE
@@ -33,7 +37,9 @@ character_event = {
 		change_learning = 100
 		change_diplomacy = 100
 		change_intrigue = 100
-		character_event = { id = KOD.1001 }
+		hidden_tooltip = {
+			character_event = { id = KOD.1001 days = 0 }
+		}
 	}
 	option = {
 		name = KODEVTOPTB1001
@@ -61,7 +67,9 @@ character_event = {
 		add_trait = genius
 		add_trait = fair
 		add_trait = strong
-		character_event = { id = KOD.1001 }
+		hidden_tooltip = {
+			character_event = { id = KOD.1001 days = 0 }
+		}
 	}
 	option = {
 		name = KODEVTOPTC1001
@@ -115,7 +123,9 @@ character_event = {
 		remove_trait = wroth
 		remove_trait = envious
 		remove_trait = proud
-		character_event = { id = KOD.1001 }
+		hidden_tooltip = {
+			character_event = { id = KOD.1001 days = 0 }
+		}
 	}
 	option = {
 		name = KODEVTOPTCLOSE
