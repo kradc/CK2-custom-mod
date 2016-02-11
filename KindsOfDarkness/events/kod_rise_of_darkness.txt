@@ -12,7 +12,7 @@ character_event = {
 
 	option = {
 		name = KODEVTOPTA2000
-		hidden_tooltip = { character_event = { id = KOD.2001 } }
+		# hidden_tooltip = { character_event = { id = KOD.2001 } }
 	}
 }
 

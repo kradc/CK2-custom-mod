@@ -9,7 +9,7 @@ e_darkness = {
 
 	culture = darkian
 	religion = darkness
-	controls_religion = darkness
+	# controls_religion = darkness
 
 	# primary = yes
 	# landless = yes
