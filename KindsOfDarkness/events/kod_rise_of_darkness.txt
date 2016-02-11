@@ -12,5 +12,38 @@ character_event = {
 
 	option = {
 		name = KODEVTOPTA2000
+		hidden_tooltip = { character_event = { id = KOD.2001 } }
+	}
+}
+
+character_event = {
+	id = KOD.2001
+	title = KODEVTNAME2001
+	desc = KODEVTDESC2001
+
+	picture = GFX_evt_council
+	border = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+
+	option = {
+		name = KODEVTOPTA2001
+		set_government_type = feudal_government
+	}
+	option = {
+		name = KODEVTOPTB2001
+		set_government_type = nomadic_government
+	}
+	option = {
+		name = KODEVTOPTC2001
+		set_government_type = theocracy_government
+	}
+	option = {
+		name = KODEVTOPTD2001
+		set_government_type = tribal_government
+	}
+	option = {
+		name = KODEVTOPTE2001
+		set_government_type = republic_government
 	}
 }

@@ -91,8 +91,8 @@ darkness_group {
 		landed_kin_prestige_bonus = yes
 		raised_vassal_opinion_loss = no
 
-		religious_clothing_head = 1
-		religious_clothing_priest = 1
+		religious_clothing_head = 3
+		religious_clothing_priest = 7
 
 		intermarry = darkness
 		intermarry = darkness_group

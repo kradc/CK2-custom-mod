@@ -5,19 +5,23 @@ e_darkness = {
 	title = "DARK_LORD"
 	foa = "DARK_LORD_FOA"
 
+	short_name = yes
+
 	culture = darkian
 	religion = darkness
+	controls_religion = darkness
 
-	landless = no
-	temporary = no
-
-	primary = yes
-	short_name = yes
-	# controls_religion = darkness
+	# primary = yes
 	# holy_order = yes
+	# landless = no
+	# temporary = no
 
 	allow = {
 		always = no
+		# culture = darkian
+		# religion = darkness
+		# trait = dark_bless
+		# is_adult = yes
 	}
 }
 

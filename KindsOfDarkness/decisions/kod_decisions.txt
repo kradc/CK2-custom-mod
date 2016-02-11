@@ -2,18 +2,18 @@ decisions = {
 	kod_rise_of_darkness = {
 		is_high_prio = yes
 		potential = {
+			trait = dark_bless
 			culture = darkian
 			religion = darkness
-			trait = dark_bless
 			is_adult = yes
 			independent = yes
 			e_darkness = { has_holder = no }
-			is_playable = yes
+			# is_playable = yes
 		}
 		allow = {
+			trait = dark_bless
 			culture = darkian
 			religion = darkness
-			trait = dark_bless
 			is_adult = yes
 			independent = yes
 			e_darkness = { has_holder = no }
@@ -22,15 +22,16 @@ decisions = {
 			prestige = 10000
 			e_darkness = {
 				grant_title = ROOT
-				copy_title_laws = PREV
-				copy_title_history = PREV
-				activate_title = { title = e_darkness status = yes }
-				hidden_tooltip = { make_primary_title = yes }
+				hidden_tooltip = {
+					make_primary_title = yes
+					activate_title = { title = e_darkness status = yes }
+					# add_law =
+				}
 			}
 			hidden_tooltip = {
 				character_event = { id = KOD.2000 }
 			}
-			# set_government_type = nomadic_government
+			# set_government_type = feudal_government
 		}
 		revoke_allowed = {
 			always = no
