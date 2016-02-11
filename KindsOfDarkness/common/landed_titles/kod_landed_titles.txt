@@ -12,9 +12,9 @@ e_darkness = {
 	controls_religion = darkness
 
 	# primary = yes
-	# holy_order = yes
-	# landless = no
+	# landless = yes
 	# temporary = no
+	# holy_order = yes
 
 	allow = {
 		always = no

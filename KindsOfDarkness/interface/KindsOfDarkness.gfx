@@ -1,7 +1,7 @@
 spriteTypes = {
 	spriteType = {
 		name = "GFX_kod_rise_of_darkness"
-		texturefile = "gfx\interface\decision_icon_kod_rise_of_darkness.dds"
+		texturefile = "gfx\\interface\\decision_icon_kod_rise_of_darkness.dds"
 	}
 	spriteType = {
 		name = "GFX_trait_dark_bless"

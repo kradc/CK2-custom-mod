@@ -25,13 +25,11 @@ decisions = {
 				hidden_tooltip = {
 					make_primary_title = yes
 					activate_title = { title = e_darkness status = yes }
-					# add_law =
 				}
 			}
 			hidden_tooltip = {
 				character_event = { id = KOD.2000 }
 			}
-			# set_government_type = feudal_government
 		}
 		revoke_allowed = {
 			always = no
