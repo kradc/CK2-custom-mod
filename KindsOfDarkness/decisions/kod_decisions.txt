@@ -19,7 +19,8 @@ decisions = {
 			e_darkness = { has_holder = no }
 		}
 		effect = {
-			prestige = 10000
+			piety = 3000
+			prestige = 3000
 			e_darkness = {
 				grant_title = ROOT
 				hidden_tooltip = {
