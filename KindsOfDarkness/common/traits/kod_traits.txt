@@ -22,6 +22,10 @@ dark_bless = {
 	stewardship = 37
 	martial = 37
 	learning = 37
+	command_modifier = {
+		speed = 1
+		retreat = 1
+	}
 
 	combat_rating = 12
 	vassal_opinion = 100

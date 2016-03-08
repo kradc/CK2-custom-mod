@@ -1,12 +1,14 @@
 darkness_group {
-	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	playable = yes
+	has_coa_on_barony_only = yes
 	hostile_within_group = yes
+	playable = yes
 
 	ai_convert_same_group = 2
-	ai_convert_other_group = 1
-	ai_fabricate_claims = no
+	ai_convert_other_group = 2
+	ai_fabricate_claims = yes
+
+	# crusade_cb = darkness_invasion
 
 	darkness = {
 		graphical_culture = westerngfx
@@ -62,13 +64,12 @@ darkness_group {
 
 		has_heir_designation = yes
 
-		can_call_crusade = yes
 		can_hold_temples = yes
 		can_retire_to_monastery = yes
-		can_call_crusade = yes
-		can_grant_claim = yes
-		can_grant_divorce = yes
-		can_grant_invasion_cb = invasion
+		can_call_crusade = no
+		can_grant_claim = no
+		can_grant_divorce = no
+		can_grant_invasion_cb = darkness_invasion
 
 		feminist = yes
 		female_temple_holders = yes
@@ -79,9 +80,9 @@ darkness_group {
 		pc_marriage = no
 		psc_marriage = no
 		cousin_marriage = no
+		matrilineal_marriages = yes
 		# max_wives = 3
 		max_consorts = 12
-		matrilineal_marriages = yes
 
 		allow_looting = yes
 		allow_rivermovement = yes
@@ -91,8 +92,8 @@ darkness_group {
 		landed_kin_prestige_bonus = yes
 		raised_vassal_opinion_loss = no
 
-		religious_clothing_head = 3
-		religious_clothing_priest = 7
+		religious_clothing_head = 1
+		religious_clothing_priest = 1
 
 		intermarry = darkness
 		intermarry = darkness_group

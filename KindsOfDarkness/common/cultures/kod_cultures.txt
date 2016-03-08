@@ -40,7 +40,8 @@ kinds_of_darkness_culture = {
 		from_dynasty_prefix = "dark "
 		from_dynasty_suffix = "gin"
 		bastard_dynasty_prefix = "black "
-		# allow_looting = yes
+		allow_looting = yes
+		# horde = yes
 
 		modifier = default_culture_modifier
 	}

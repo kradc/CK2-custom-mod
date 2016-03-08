@@ -8,7 +8,6 @@ decisions = {
 			is_adult = yes
 			independent = yes
 			e_darkness = { has_holder = no }
-			# is_playable = yes
 		}
 		allow = {
 			trait = dark_bless
@@ -29,6 +28,7 @@ decisions = {
 				}
 			}
 			hidden_tooltip = {
+				# set_government_type = feudal_government
 				character_event = { id = KOD.2000 }
 			}
 		}
